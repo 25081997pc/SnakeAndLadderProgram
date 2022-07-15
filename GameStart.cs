@@ -14,6 +14,11 @@ namespace SnakeAndLadderGame
             int Player_Position = 0;
 
             Console.WriteLine("Player Position is : " + Player_Position);
+
+            Random random = new Random();
+            int DieRoll = random.Next(1, 7);
+
+            Console.WriteLine("Rolling the Die : " + DieRoll);
         }
     }
 }
